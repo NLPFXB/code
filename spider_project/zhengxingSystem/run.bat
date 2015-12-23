@@ -1,0 +1,2 @@
+scrapy crawl zhengxing
+pause

@@ -1,0 +1,2 @@
+scrapy crawl mo09spider
+pause

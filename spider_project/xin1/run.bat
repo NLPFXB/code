@@ -1,0 +1,2 @@
+scrapy crawl xin1Spider
+pause
