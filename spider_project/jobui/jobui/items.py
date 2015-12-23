@@ -10,5 +10,8 @@ import scrapy
 
 class JobuiItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    city = scrapy.Field()
+    citySpell = scrapy.Field()
+    dateTime = scrapy.Field()
+    sampleSize = scrapy.Field()
+    salary = scrapy.Field()

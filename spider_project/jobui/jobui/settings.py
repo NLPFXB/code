@@ -15,3 +15,9 @@ NEWSPIDER_MODULE = 'jobui.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'jobui (+http://www.yourdomain.com)'
+
+ITEM_PIPELINES = ['jobui.pipelines.JobuiPipeline', ]
+MONGODB_SERVER = "127.0.0.1"
+MONGODB_PORT = 27017
+MONGODB_DB = "blacklist"
+MONGODB_COLLECTION = "jobui"

@@ -1,0 +1,2 @@
+scrapy crawl spider_jobui
+pause
